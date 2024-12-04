@@ -1,3 +1,24 @@
 h1{
-  color: red;
+  color: rgb(151, 63, 3);
+  font-size: 60px;
+  text-align: center;
+}
+label{
+  color: rgb(167, 17, 17);
+  font-size: 25px;
+  text-align: center;
+}
+input{
+  color: brown;
+  font-size: 25px;
+  text-align: center;
+
+}
+p{
+  color: darkviolet;
+  font-size: 30px;
+}
+div{
+  background: red;
+  height: 100px;
 }

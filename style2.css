@@ -1,37 +1,40 @@
+/*
+*{
+  margin: 0;
+  color: brown;
+  padding: 0;
+}
+*/ 
 h1{
-  color: rgb(185, 7, 7);
+  color:red;
   font-size: 60px;
-  border-style: ridge;
- text-align: center;
- border: 5px;
- border-radius: 15px;
-}
-label{
-  color: rgb(167, 17, 17);
-  font-size: 25px;
- margin: 60px;
-}
-input{
-  color: black;
-  font-size: 20px;
-margin-bottom: 10px;
-margin: 10px;
-
 }
 p{
-  color: darkviolet;
-  font-size: 30px;
+  color: blue;
+  font-size: 18px;
 }
-/*div{
-  background: rgb(241, 237, 171);
-  height: 110px;
-  width: 500px;
+div{
+  width: 200px;
+  height: 200px;
+  background: rgb(221, 5, 5);
+  margin-bottom: 20px;
+}
+div p{
+  color: rgb(87, 228, 31);
+}
+.pp{
+  color: rgb(230, 10, 10);
+  background: aqua;
+  text-align: center;
   margin: 20px;
-} */
-body{
-  background: url(bg1.png);
-  background-size: 600px 300px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: rgb(100, 11, 112);
+}
+.d{
+  background: blue;
+}
+.d p{
+  color: black;
+}
+#dd, 
+#d{
+  width: 400px;
 }

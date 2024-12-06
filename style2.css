@@ -6,16 +6,39 @@ h1{
   font-size: 70px;
   text-align: center;
   color: cornflowerblue;
+  /*
+  border-style: solid;
+  border-width: 5px;
+  border-color: aquamarine;
+  border-radius: 45px;
+  */
+
+  border-right: 5px solid red;
+  border-left: 5px dotted yellow;
+  border-top: 5px  double blue;
+  border-bottom: 5px groove lightcoral;
+  margin-left: 790px;
+  padding-right: 250px;
+  margin-right: 1700px;
+  padding-left: 50px;
 }
 div{
   background: pink;
-  background-position: 300px 300px;
+  background-position: 2cap ;
+  margin-top: 50px;
+  padding-top: 30px;
+  margin-left: 800px;
+  padding-left: 40px;
+  width: 300px;
+  background-image: url(bg1.png);
+  background-repeat: no-repeat;
+ 
 }
-label{
-  font-size: 30px;
+input {
+  font-size:20px;
+  margin: 10px;
 
 }
-input{
-  margin: 10px;
+label{
   font-size: 20px;
 }

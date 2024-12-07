@@ -1,15 +1,4 @@
-h1{
-  text-align: center;
-  color: blueviolet;
-}
-label{
-  color: rgb(0, 0, 0);
-  font-size: 20pxss;
-  margin: 50px;
-}
-input{
-  color: black;
-  margin: 10px;
-  margin-bottom: 10px;
-background-size: ;
+div{
+  background: pink;
+  color: azure;
 }

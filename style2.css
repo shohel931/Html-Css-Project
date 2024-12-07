@@ -13,10 +13,10 @@ h1{
   border-radius: 45px;
   */
 
-  border-right: 5px solid red;
-  border-left: 5px dotted yellow;
-  border-top: 5px  double blue;
-  border-bottom: 5px groove lightcoral;
+  border-right: 5px groove darkviolet;
+  border-left: 5px groove darkviolet;
+  border-top: 5px  groove darkviolet;
+  border-bottom: 5px groove darkviolet;
   margin-left: 790px;
   padding-right: 250px;
   margin-right: 1700px;
@@ -24,21 +24,21 @@ h1{
 }
 div{
   background: pink;
-  background-position: 2cap ;
   margin-top: 50px;
   padding-top: 30px;
-  margin-left: 800px;
-  padding-left: 40px;
+  margin-left: 780px;
+  padding-left: 20px;
   width: 300px;
   background-image: url(bg1.png);
-  background-repeat: no-repeat;
- 
+ background-repeat: no-repeat;
 }
 input {
   font-size:20px;
   margin: 10px;
+  color: black;
 
 }
 label{
   font-size: 20px;
+  color: rgb(48, 97, 3);
 }

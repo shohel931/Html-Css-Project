@@ -1,4 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&family=DynaPuff:wght@400..700&display=swap');
+
+
+body{
+  background-image: url(bg1.png);
+  background-repeat: no-repeat;
+  background-size: 2000px 1000px;
+}
+
+
+h1{
+font-size: 50px;
+font-family:"Bungee Tint", sans-serif;
+font-style:oblique;
+font-weight:100;
+text-align:center;
+color: rgb(5, 1, 0);
+border:  3px double rgb(71, 63, 185) ;
+border-radius: 20px;
+margin: 20px 840px;
+padding-top: 0px;
+padding-bottom: 9px;
+background-color: rgb(168, 6, 160);
+}
 div{
-  background: pink;
-  color: azure;
+border: 1px solid red;
+ 
+margin-top: 150px;
+margin-bottom: 110px;
+margin-right: 800px;
+margin-left: 800px;
+background-color: lightblue;
+padding: 18px ;
+background-image: url(bg1.png);
+background-repeat: no-repeat;
+background-size: 300px 190px;
+
+}
+label{
+  font-size: 19px;
+  margin: 6px;
+  color:rgb(138, 236, 228);
+  padding: 4px;
+}
+input{
+  font-size: 15px;
+  margin: 5px;
+  padding: center;
+  color: black;
+  background-color: rgb(241, 207, 240);
+  padding-left: 5px;
+  border-left: 50px;
+}
+.input3{
+  color: black;
+  background-color: rgb(46, 211, 203);
+  border-radius: 6px;
+  border-color: gold;
+}
+p{
+  color:cyan;
+  text-align: center;
 }

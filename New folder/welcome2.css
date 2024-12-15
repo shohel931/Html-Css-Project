@@ -1,76 +1,78 @@
-body{
-  background-color: cornsilk;
+.parant{
+  margin-top: 10px;
+  margin-left: 10px;
 }
-.contact{
-  width: 80%;
-  border: 1px solid #ddd;
-  margin: 20px auto;
-  padding: 5%;
+
+.child{
+  background: #EA2027;
+  width: 50px;
+  padding-top: 10px;
+  height: 38px;
+  margin-bottom: 10px;
   text-align: center;
+  border-radius: 5px;
+  float: left;
+  margin-right: 10px;
 }
-.contact h2{
-  font-weight: bold;
-  font-size: 35px;
-  margin-bottom: 0;
-
-}
-.contact p{
-  color:rgb(134, 104, 104);
-}
-.contact form{
- margin-top: 25px;  
-
+.child p{
+  margin: 0;
+  padding: 0;
+  color: white;
 }
 
-.child_form:last-child{
-  
-  margin-bottom: 0px;
+
+/*
+.child:first-child{
+  background:#1B1464 ;
 }
-.child_form{
-  width: 100%;
-  margin-bottom: 15px;
-  text-align: left;
+
+.child:last-child{
+  background:#1B1464 ;
 }
-.child_form label{
-  display: block;
-  margin-bottom: 5px;
+
+.child:nth-child(4){
+  background: #F79F1F;
 }
-.child_form input,
-.child_form select,
-.child_form textarea{
- border: 1px solid #ddd; 
- border-radius: 10px;
-padding: 10px 3%;
-width: 94%;
+
+.child:nth-last-child(3){
+  background: #F79F1F;
 }
-.child_form select{
-  width: 100%;
+.child:nth-child(odd){
+  background:#1B1464 ;
+}*/
+
+.child:nth-child(3n+2){
+  background:#1B1464 ;
 }
-.child_form input[type=button]{
-  width: 200px;
-  background-color: blueviolet;
-  border: 1pc solid blueviolet;
-  color: #fff;
+
+
+form{
+  margin-top: 25px;
+  margin-left: 10px;
+}
+input[type=text]{
+  border: 1px solid #0652DD ;
+  padding: 15px 25px;
+  color: black;
+  font-size: 14px;
+  border-radius: 5px;
+  float: left;
+}
+
+input[type=button]{
+  background: #1289A7;
+  border: 1px solid #0652DD ;
+  padding: 15px 25px;
+  color: white;
+  font-size: 14px;
+  border-radius: 8px;
   cursor: pointer;
-  height: 60px;
+  display:none ;
+  transition: 0.3s;
 }
-.child_form input[type=button]:hover{
- width: 200px;
- background: black;
- border: 1px solid black ;
- color: #fff;
+input:not(:placeholder-shown)+input[type='button']{
+  display: block;
 }
-h2{
-  color: cornflowerblue;
-  border: 2px double tomato;
-  display:block;
-  border-radius: 15px;
-margin-left: 200px;
-margin-right: 200px;
-background-color: rgb(228, 201, 222);
-}
-.p1{
-  color: rgb(0, 0, 0);
-  font-size: 18px;
-  font-weight: bold;
+input[type=button]:hover{
+  background:#F79F1F;
 }

@@ -1,0 +1,87 @@
+*{
+  box-sizing: border-box;
+}
+body{
+
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+  background:#d1d8e0 ;
+}
+.header{
+  background-color: skyblue;
+  padding: 20px;
+  text-align: center;
+  
+}
+ h1{
+  text-decoration: none;
+  color:#e67e22 ;
+  font-size: 50px;
+}
+.topnav{
+  overflow: hidden;
+  background-color: cornflowerblue;
+}
+
+.topnav a{
+  float: left;
+  display: block;
+  color: blue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.topnav a:hover{
+  background-color:#ED4C67 ;
+  color: #ecf0f1;
+}
+.column{
+  float: left;
+  width: 80%;
+  padding: 15px;
+  background-color:#e67e22 ;
+  margin: 10px;
+}
+.leftcolumn{
+  float: left;
+  width: 75%;
+}
+.rightcolumn{
+  float: left;
+  width: 25%;
+  background-color: aqua;
+  padding-left: 20px;
+}
+.fakeimg{
+  background-color: cadetblue;
+  width: 100%;
+  padding: 20px;
+}
+.card{
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+@media screen and(max-width:800px) {
+  .leftcolumn,.rightcolumn{
+    width: 100%;
+    padding: 0;
+  }
+}
+@media screen and(max-width:800px) {
+  .topnav a{
+    float: none;
+    width: 100%;
+    
+  }
+}
+.footer{
+  background-color:#45aaf2 ;
+  padding: 10px;
+  text-align: center;
+}
+.row::after{
+  content: ;
+  display: table;
+  clear: both;
+}

@@ -1,63 +1,127 @@
-body{
-  font-family: "Rosarivo", serif;
-}
-#header_area{
-  padding: 15px 0;
-border-bottom:1px solid #ddd ;
-  text-align: center;
-}
-#main_menu{
-  padding: 10px 0;
-  border-bottom: 2px solid #ddd;
-}
-#main_menu ul{
-margin: 0;
-padding: 0;
-list-style: none;
-text-align: center;
-}
-#main_menu ul li{
-display: inline-block;
-margin: 0 8px;
 
+* {
+  box-sizing: border-box;
+ 
 }
-#main_menu ul li a{
-font-size: 15px;
-font-weight:bold ;
-  color: black;
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: rgb(119, 178, 226);
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #331f8b;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
 }
-#main_menu ul li a:hover{
-color: #6CA2C8;
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color:#9de474 ;
+  color: rgb(0, 0, 0);
 }
 
-#contant{
-  width: 1140px;
-  margin: 10px auto;
-  border-bottom: 1px solid #ddd ;
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 50%;
+}
+
+ 
+.rightcolumn {
+  float: left;
+  width: 50%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #60c4d1;
+  width: 100%;
+  padding: ;
+  height: 100px;
   overflow: hidden;
-  padding-bottom: 10px;
-}
-#main_contant{
-width: 70%;
-padding: 10px 2%;
-border-right: 1px solid #ddd;
-float: left;
-
-}
-#main_saideber{
-width:21% ;
-float: right;
-padding: 10px 2%;
-
 }
 
+/* Add a card effect for articles */
+.card {
+  background-color:#d7dbec;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
 
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #b4b9e4;
+  margin-top: 20px;
+}
 
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
 
-
-
-
-
-
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+.popular{
+  width: 100%;
+  height: 300px;
+overflow: hidden;
+ 
+}
+.popular h3{
+  color: #0652DD;
+}
+.card h2{
+  color: #0652DD;
+  font-weight: bold;
+}
+.footer i{
+  font-size: 30px;
+  margin: 10px;
+}
+#one{
+  color: blue;
+}

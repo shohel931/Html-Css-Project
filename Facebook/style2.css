@@ -1,0 +1,274 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+}
+body{
+background-color: aliceblue;
+}
+.first{
+ 
+ 
+}
+.first_div{
+  text-align: center;
+  font-size: 12px;
+  margin-top: 20px;
+  padding-right: 200px;
+ font-size: 12px;
+ font-family: "Ubuntu", serif;
+}
+.sec_div{
+  text-align: center;
+  margin-top: 30px;
+  padding-right: 190px;
+  font-family: "Ubuntu", serif;
+}
+.sec_div p{
+  padding-top: 16px;
+  padding-right: 90px;
+  font-size: 15px;
+  font-family: "Ubuntu", serif;
+}
+.third_div{
+ margin-top:30px ;
+  text-align: center;
+  padding-right: 160px;
+  font-size: 13px;
+  font-family: "Ubuntu", serif;
+}
+.third_div a{
+  color:#111;
+  font-family: "Ubuntu", serif;
+}
+
+.border{
+min-height: 100vh;
+padding: 15px;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+gap: 15px;
+font-size: 20px;
+font-family: "Ubuntu", serif;
+border: 1px solid none;
+margin-left: 500px;
+margin-right: 365px;
+margin-bottom: -100px;
+}
+
+.main-controlar{
+  float:6;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: -50px;
+
+}
+.contant2{
+flex: 1;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+gap: 15px;
+width: 1200px;
+height: 500px;
+font-family: "Ubuntu", serif;
+}
+.contant>div{
+flex: 1;
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+gap: 15px;
+}
+
+.subcontant1{
+  width: 500px;
+  height: 150px;
+  display: flex;
+  margin-top: 50px;
+  font-family: "Ubuntu", serif;
+}
+.subcontant2{
+  width: 500px;
+  height: 150px; 
+  display: flex;
+  font-family: "Ubuntu", serif;
+}
+.contant1{
+  background-color: blue;
+  width: 375px;
+  height:480px ;
+  margin-left: 100px;
+  margin-top: 65px;
+  font-family: "Ubuntu", serif;
+}
+.h2 img{
+  margin-left: 81px;
+  text-align: center;
+  clip-path: circle(40%);
+}
+.h2 h2{
+  text-align: center;
+  color: white;
+  font-family: "Ubuntu", serif;
+}
+.btn button{
+margin-left: 118px;
+margin-top: 30px;
+background: blue;
+border: 1px solid white;
+color: white;
+padding: 10px 30px;
+font-size: 12px;
+font-family: "Ubuntu", serif;
+}
+.ss111{
+margin: 15px;
+background:white;
+width: 204px;
+height:231px;
+margin-top: 98px;
+font-family: "Ubuntu", serif;
+}
+.ss111 img{
+width: 48px;
+height: 48px;
+margin-top: 40px;
+margin-left: 20px;
+}
+.ss111 h3{
+margin-top:13px ;
+margin-left: 20px;
+font-family: "Ubuntu", serif;
+}
+.ss111 p{
+  margin-top:15px ;
+  margin-left: 20px;
+  font-size: 11px;
+  font-family: "Ubuntu", serif;
+}
+.ss111 a{
+color: #333;
+}
+.ss11{
+  margin: 15px;
+  background: white;
+  width:204px;
+  height:231px;
+  font-family: "Ubuntu", serif;
+  }
+  .ss11 img{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    margin-top: -30px;
+    margin-left: -60px;
+  }
+  .ss11 h3 {
+    padding-left: 16px;
+    margin-top: -76px;
+    font-family: "Ubuntu", serif;
+  }
+  .ss11 p{
+    font-family: "Ubuntu", serif;
+  margin-top: 15px;  
+  font-size: 11px;
+    color: #333;
+    margin-left: 16px;
+  }
+  .ss11 a{
+    color: #333;
+    
+  }
+  .ss22{
+    background-color: white;
+    width:204px ;
+    height: 231px;
+    margin-top: 15px;
+    margin-left:0px;
+  padding: 10px;
+  font-family: "Ubuntu", serif;
+ 
+  }
+  .ss22 img{
+    width: 45px;
+    height: 45px;
+    margin-top: 43px;
+    margin-left: 10px;
+  }
+.ss22 h3{
+  margin-top: 20px;
+  margin-left: 10px;
+  font-family: "Ubuntu", serif;
+}
+.ss22 p{
+  margin-top: 20px;
+  color: #333;
+  font-size: 11px;
+  margin-left: 10px;
+  font-family: "Ubuntu", serif;
+}
+.ss22 a{
+  color: #333;
+  font-family: "Ubuntu", serif;
+}
+.ss222{
+  background-color:white;
+  width:204px ;
+  height: 231px;
+  margin-top: 98px;
+  margin-left:0px;
+padding: 10px;
+font-family: "Ubuntu", serif;
+}
+.ss222 img{
+width:50px ;
+height: 50px;
+margin-top: 35px;
+margin-left: 10px;
+}
+.ss222 h3{
+margin-top: 10px;
+margin-left: 10px;
+font-family: "Ubuntu", serif;
+}
+.ss222 p{
+margin-left: 10PX;
+margin-top:15px ;
+font-size: 11px;
+font-family: "Ubuntu", serif;
+}
+.ss222 a{
+color: #333;
+font-family: "Ubuntu", serif;
+}
+.footer{
+  margin-top: 50px;
+  background: #333;
+  padding: 25px 20px;
+  text-align: center;
+  margin-right: 160px;
+  margin-left: -15px;
+  font-family: "Ubuntu", serif;
+}
+.footer  a{
+  color:white;
+}
+.footer  p{
+  color:white;
+  font-size: 15px;
+  font-family: "Ubuntu", serif;
+}
+.sec_div h1{
+  color: blue;
+}
+.sec_div p{
+  font-family: "Ubuntu", serif; 
+ line-height: 1.7;
+}
+
+

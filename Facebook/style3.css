@@ -1,0 +1,101 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrapper{
+  min-height: 100vh;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 15px;
+  font-size:20px ;
+
+}
+.header, .footer, .contant1,.contant2>div>div{
+  flex: 1;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  border:1px solid #000 ;
+}
+.main-container{
+  flex: 6;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 15px;
+
+}
+.contant2{
+  flex: 2;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap:wrap ;
+  gap: 15px;
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.contant2 div{
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 20px ;
+  width: 300px;
+}
+.contant1{
+  width: 300px;
+  height: 512px;
+  margin-top: 60px;
+  margin-left: 200px;
+  text-align: center;
+}
+.contant1 button{
+  margin-top: 50px;
+  padding: 10px 20px;
+  color: white;
+  border: 1px solid white;
+  background: blue;
+}
+.contant1 p{
+  font-size: 40px;
+  color: blue;
+}
+.contant1 img{
+  clip-path: circle(50%);
+}
+.footer{
+  text-align: center;
+  padding: 10px 20px;
+  padding-top: 30px;
+}
+.subcontant1{
+  width: 200px;
+  height: 200px;
+}
+.subcontant1{
+  width: 200px;
+  height: 200px;
+}
+.subcontant2{
+  width: 200px;
+  height: 200px;
+  float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

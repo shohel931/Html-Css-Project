@@ -1,0 +1,66 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+justify-content: center;
+display: flex;
+background-color:#FA8E9D;
+}
+.main-menu{
+display: flex;
+padding: 20px ;
+}
+.menu-logo{
+font-size: 30px;
+padding:0px 250px;
+
+}
+.home ul{
+  list-style-type: none;
+display: flex;
+  }
+.home ul a{
+    text-decoration: none;
+    display: flex;
+    padding: 20px;
+    margin-left: auto;
+    color:black;
+}
+.home ul a:hover{
+  background-color: brown;
+  color:white;
+
+}
+.btn{
+  padding: 8px 20px ;
+  margin-left: 100px;
+}
+.one{
+  padding: 6px 20px;
+  margin: 10px;
+  border: 1px solid darkorchid;
+  border-radius:10px ;
+  background-color: aqua;
+  color:black;
+  font-weight: bold;
+  cursor: pointer;
+}
+.one:hover{
+  background-color: rgb(192, 17, 90);
+  color: white;
+}
+.two:hover{
+  background-color:rgb(192, 17, 90);
+  color: white;
+}
+.two{
+  padding: 6px 20px;
+  border: 1px solid darkorchid;
+  border-radius:10px ;
+  background-color: aqua;
+  color:black;
+  font-weight: bold;
+  cursor: pointer;
+}

@@ -1,0 +1,170 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body{
+  width: 100%;
+  height: 100vh;
+ background-color: #FBF2E0;
+}
+.container{
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 20px;
+}
+.main h2{
+  color: red;
+}
+.main b{
+  color: black;
+}
+
+.btn1{
+  padding: 12px 25px;
+  border-radius: 27px;
+  background: #FBF2E0;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+.btn1:hover{
+  background: #F71845;
+  color: white;
+}
+.btn2{
+  padding: 12px 25px;
+  border-radius: 27px;
+  background: #F71845;
+  font-weight: bold;
+  border: 1px solid #F71845;
+  color: white;
+  cursor: pointer;
+}
+.btn2:hover{
+  background: orange;
+  color:black ;
+}
+
+.hero{
+  text-align: center;
+  width: 100%;
+  height: 450px;
+
+  padding: 180px 60px 50px 60px;
+}
+.hero h2{
+  color: #373D51;
+  padding: 10px;
+  font-size: 35px;
+
+}
+.hero input{
+  padding: 11px 30px;
+  border-radius: 20px;
+  color: #9B99A4;
+  border: none;
+}
+
+.btn3{
+  padding: 10px 20px;
+  background: #F81A42;
+  color: white;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+.btn3:hover{
+  background-color:orange ;
+  color: black;
+  font-weight: 600;
+}
+
+.contant{
+  background: white;
+  width: 100%;
+  height: 700px;
+ 
+}
+.subcontant{
+  text-align: center;
+  padding: 50px 20px ;
+  
+}
+.low{
+  color: black;
+}
+.subcontant a{
+  text-decoration: none;
+  margin: 20px;
+ 
+}
+.fast{
+  border: 1px solid #F11D45;
+  padding: 11px 23px;
+  border-radius: 25px;
+  background: #F11D45;
+  color: white;
+}
+
+.maincontant{
+  display: flex;
+  flex-direction: row;
+ justify-content: center;
+  height: 400px;
+  }
+  
+  .subcontant2{
+    background: white;
+    width: 350px;
+    height: 400px;
+    margin: 10px;
+    text-align: center;
+    }
+      
+    .subcontant2 h3{
+      padding: 10px;
+      font-weight: 100;
+    }
+    .subcontant2 img{
+      clip-path: circle(50%);
+    }
+        
+    .subcontant2 p{
+      padding: 5px;
+    }
+    .subcontant2 h2{
+      padding: 8px;
+    }
+    .subcontant2 button{
+      padding: 8px 20px ;
+      border: 1px solid #F81946;
+      border-radius: 30px;
+      background: #F81946;
+      color: white;
+      cursor: pointer;
+    }
+    
+footer{
+  padding: 30px 20px;
+  text-align: center;
+  background: #333;
+  color: white;
+}
+    
+    @media only screen and (max-width:768px){
+      .maincontant{
+       display: block;
+      margin-left: 10px;
+      
+      }  
+      .contant{
+        height: 1400px;
+   
+    }
+  }

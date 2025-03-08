@@ -1,0 +1,8 @@
+Arrey  /done
+Booleans  /done
+For Loop  /done
+Break   /done
+if else  /done
+function /done
+
+

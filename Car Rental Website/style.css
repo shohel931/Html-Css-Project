@@ -1,0 +1,119 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-padding-top: 2rem;
+  list-style: none;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+}
+:root {
+  --main-color: #fe5b3d; /* Primary color for buttons and highlights */
+  --second-color: #ffac38; /* Secondary color for accents */
+  --text-color: #444; /* General text color */
+  --gradient: linear-gradient(#fe5b3d, #ffac38); /* Gradient effect */
+}
+html::-webkit-scrollbar-track{
+  background: transparent;
+}
+html::-webkit-scrollbar-thumb{
+  background: var(--main-color);
+  border-radius: 5rem;
+}
+section{
+  padding: 50px 100px;
+}
+header{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #eeeff1;
+  padding: 15px 100px;
+}
+.logo img{
+  width: 40px;
+}
+.navbar{
+  display: flex;
+}
+.navbar li{
+  position: relative;
+}
+.navbar a{
+ font-size: 1rem;
+ padding: 10px 20px;
+ color: var(--text-color);
+ font-weight: 500;
+}
+.navbar a::after{
+  content: "";
+  width: 0;
+  height: 3px;
+  background: var(--gradient);
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  transition: 0.5s;
+}
+.navbar a:hover::after{
+  width: 100%; 
+}
+#menu-icon{
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 10001;
+  display: none;
+}
+.header-btn a{
+  padding: 10px 20px;
+  color: var(--text-color);
+  font-weight: 500;
+}
+.header-btn .sign-in{
+  padding: 0.7rem 1.2rem;
+  background: var(--gradient);
+  color: var(--bg-color);
+  font-weight: 500;
+  display: inline-block;
+  text-transform: uppercase;
+  clip-path: polygon(100% 0, 93% 50%, 86% 99%, 0% 100%, 7% 47%, 13% 0%);
+}
+.header-btn .sign-in:hover{
+  background: var(--text-color);
+  color: #fff;
+}
+.header-btn .sign-up{
+  text-transform: uppercase;
+  display: inline-block;
+  color: var(--bg-color);
+
+}
+.header-btn .sign-up:hover{
+  padding: 0.7rem 1.2rem;
+  background: var(--gradient);
+  color: var(--bg-color);
+  font-weight: 500;
+  display: inline-block;
+  text-transform: uppercase;
+  clip-path: polygon(100% 0, 93% 50%, 86% 99%, 0% 100%, 7% 47%, 13% 0%);
+}
+.home{
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  background: url(img/Car\ Website\ –\ 1@2x.png);
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: cover;
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(2, 1fr);
+}
